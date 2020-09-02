@@ -1,0 +1,4 @@
+on:
+  push:
+    uses:blairhudson/jupydiff@v1
+ 
