@@ -1,4 +1,9 @@
 on:
   push:
-    uses:blairhudson/jupydiff@v1
- 
+name: Diff my notebooks
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: blairhudson/jupydiff@v1
+    
