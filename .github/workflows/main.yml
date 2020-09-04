@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: blairhudson/jupydiff@v0
+        uses: blairhudson/jupydiff@v0.0.1
       - name: script
         uses: actions/github-script@v1
         
