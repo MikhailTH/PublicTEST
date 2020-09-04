@@ -7,6 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: blairhudson/jupydiff@v0
+      - uses: blairhudson/jupydiff@v0.0.5
 #         with:
 #           github-token: ${{secrets.GITHUB_TOKEN}}
