@@ -8,5 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: blairhudson/jupydiff@master
+      - uses: actions/core
 #         with:
 #           github-token: ${{secrets.GITHUB_TOKEN}}
