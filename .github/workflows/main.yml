@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
-      - uses: blairhudson/jupydiff@master #hello? nope maybe yes?
+      - uses: blairhudson/jupydiff@master #hello? nope  yes?
 #         with:
 #           github-token: ${{secrets.GITHUB_TOKEN}}
 #
