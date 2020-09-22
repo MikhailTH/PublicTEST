@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 2
+          fetch-depth: 1
         
       - uses: blairhudson/jupydiff@master
